@@ -4,3 +4,12 @@
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = http://github.com/vim-scripts/bufexplorer.zip.git
+[submodule "bundle/bufkill"]
+	path = bundle/bufkill
+	url = http://github.com/vim-scripts/bufkill.vim.git
+[submodule "bundle/delimitmate"]
+	path = bundle/delimitmate
+	url = http://github.com/Raimondi/delimitMate.git
+[submodule "bundle/fuzzyfinder"]
+	path = bundle/fuzzyfinder
+	url = http://github.com/vim-scripts/FuzzyFinder.git
