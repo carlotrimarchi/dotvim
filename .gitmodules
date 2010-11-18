@@ -13,3 +13,9 @@
 [submodule "bundle/fuzzyfinder"]
 	path = bundle/fuzzyfinder
 	url = http://github.com/vim-scripts/FuzzyFinder.git
+[submodule "bundle/lua-inspect"]
+	path = bundle/lua-inspect
+	url = https://github.com/xolox/vim-lua-inspect.git
+[submodule "bundle/lua-support"]
+	path = bundle/lua-support
+	url = https://github.com/vim-scripts/lua-support.git
