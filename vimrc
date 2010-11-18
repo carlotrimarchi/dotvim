@@ -24,7 +24,6 @@ set numberwidth=1 "Use 1 col + 1 space for numbers
 " With a map leader it's possible to do extra key combinations
 let mapleader = ","
 let g:mapleader = ","
-
 " Enter key to work like ESC
 " Use Shift-Enter or Ctrl-Enter for the new line
 :inoremap <CR> <Esc>
@@ -102,15 +101,10 @@ set shiftwidth=4 "sw 4 spaces (used on auto indent)
 set tabstop=4 "4 spaces as a tab for bs/del
 set smarttab
 
-set lbr "Linebreak
-set tw=79 "Textwidth
-
+set wrap linebreak tw=80 wm=0 "Wrap lines
 set ai "Auto indent
 set si "Smart indent
-set wrap "Wrap lines
-
 " }}}1
-
 " Moving around, tabs and buffers {{{1
 
 " Map space to / (search) and c-space to ? (backwards search)
@@ -461,4 +455,4 @@ imap <C-@> <C-Space>
 au BufNewFile,BufRead *.yaml,*.yml so ~/.vim/yaml.vim
 
 " sw = shiftwidth: works with the '>' command
-autocmd FileType python setlocal sw=4 sts=4 et textwidth=78 sta
+"autocmd FileType python setlocal sw=4 sts=4 et textwidth=78 sta
