@@ -6,12 +6,13 @@ call pathogen#runtime_append_all_bundles()
 
 "let processing_doc_patg="/home/ilsignorcarlo/processing-1.0/reference"
 "so ~/.scvimrc
-
 set nocompatible "Don't be compatible with vi
 
 " Enable filetype plugin
 filetype indent on
 filetype plugin on
+
+so ~/.vim/bundle/unicodemacros_0.1/unicodemacros.vim
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -26,7 +27,7 @@ let mapleader = ","
 let g:mapleader = ","
 " Enter key to work like ESC
 " Use Shift-Enter or Ctrl-Enter for the new line
-:inoremap <CR> <Esc>
+":inoremap <CR> <Esc>
 
 " Fast saving
 nmap <leader>w :w!<cr>
@@ -153,7 +154,7 @@ let g:miniBufExplUseSingleClick = 1
 let g:miniBufExplMapWindowNavVim = 1
 
 " Change directory to the file I'm editing
-autocmd BufEnter * lcd %:p:h
+"autocmd BufEnter * lcd %:p:h
 " When pressing <leader>cd switch to the directory of the open buffer
 map <leader>cd :cd %:p:h<cr>
 
