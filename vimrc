@@ -140,7 +140,8 @@ nnoremap <Leader>9 :9b<CR>
 nnoremap <Leader>0 :10b<CR>
 
 " Close the current buffer. Bclose defined below.
-map <leader>bd :Bclose<cr>
+" dovrebbe già esistere in bufkill.vim
+" map <leader>bd :Bclose<cr>
 
 " Use the arrows to do something useful
 map <right> :bn<cr>
