@@ -37,9 +37,6 @@
 [submodule "bundle/SnipMate"]
 	path = bundle/SnipMate
 	url = https://github.com/msanders/snipmate.vim.git
-[submodule "bundle/NerdTree"]
-	path = bundle/NerdTree
-	url = https://github.com/vim-scripts/NERD_Tree-and-ack.git
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = https://github.com/vim-scripts/matchit.zip.git
@@ -52,3 +49,6 @@
 [submodule "bundle/HTML-AutoCloseTag"]
 	path = bundle/HTML-AutoCloseTag
 	url = https://github.com/vim-scripts/HTML-AutoCloseTag.git
+[submodule "bundle/NerdTree"]
+	path = bundle/NerdTree
+	url = https://github.com/scrooloose/nerdtree.git
