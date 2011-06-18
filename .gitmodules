@@ -40,3 +40,6 @@
 [submodule "bundle/NerdTree"]
 	path = bundle/NerdTree
 	url = https://github.com/vim-scripts/NERD_Tree-and-ack.git
+[submodule "bundle/matchit"]
+	path = bundle/matchit
+	url = https://github.com/vim-scripts/matchit.zip.git
