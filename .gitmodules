@@ -52,3 +52,6 @@
 [submodule "bundle/NerdTree"]
 	path = bundle/NerdTree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/Nerd-Commenter"]
+	path = bundle/Nerd-Commenter
+	url = https://github.com/vim-scripts/The-NERD-Commenter.git
