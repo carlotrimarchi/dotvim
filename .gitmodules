@@ -31,9 +31,6 @@
 [submodule "bundle/PIV"]
 	path = bundle/PIV
 	url = https://github.com/spf13/PIV.git
-[submodule "bundle/SuperTab"]
-	path = bundle/SuperTab
-	url = https://github.com/vim-scripts/SuperTab.git
 [submodule "bundle/SnipMate"]
 	path = bundle/SnipMate
 	url = https://github.com/msanders/snipmate.vim.git
@@ -58,3 +55,9 @@
 [submodule "bundle/css_color"]
 	path = bundle/css_color
 	url = https://github.com/vim-scripts/css_color.vim.git
+[submodule "bundle/jquery.vim"]
+	path = bundle/jquery.vim
+	url = https://github.com/nono/jquery.vim.git
+[submodule "bundle/SuperTab"]
+	path = bundle/SuperTab
+	url = https://github.com/ervandew/supertab.git

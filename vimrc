@@ -29,6 +29,9 @@ let g:mapleader = ","
 " Use Shift-Enter or Ctrl-Enter for the new line
 ":inoremap <CR> <Esc>
 
+" Toggle NERDTree
+map <leader>n :NERDTreeToggle<CR>
+
 " Fast saving
 nmap <leader>w :w!<cr>
 
@@ -208,21 +211,6 @@ endfunction
 
 " }}} 1
 
-" Parenthesis/bracket expanding {{{1
-vnoremap $1 <esc>`>a)<esc>`<i(<esc>
-vnoremap $2 <esc>`>a]<esc>`<i[<esc>
-vnoremap $3 <esc>`>a}<esc>`<i{<esc>
-vnoremap $$ <esc>`>a"<esc>`<i"<esc>
-vnoremap $q <esc>`>a'<esc>`<i'<esc>
-vnoremap $e <esc>`>a"<esc>`<i"<esc>
-
-" Map auto complete of (, ", ', [
-inoremap $1 ()<esc>i
-inoremap $2 []<esc>i
-inoremap $3 {}<esc>i
-inoremap $4 {<esc>o}<esc>O
-inoremap $q ''<esc>i
-inoremap $e ""<esc>i
 
 " }}} 1
 
@@ -293,6 +281,9 @@ let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 " automatically open and close the popup menu / preview window
 au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 set completeopt=menuone,menu,longest,preview
+
+" SuperTab settings
+let g:SuperTabDefaultCompletionType = "<C-x><C-o>"
 
 """"" Folding
 set foldmethod=syntax					" By default, use syntax to determine folds
@@ -374,15 +365,7 @@ autocmd BufRead *.py set efm=%C\ %.%#,%A\ \ File\ \"%f\"\\,\ line\ %l%.%#,%Z%[%^
 
 "map <silent><C-Left> <C-T>
 "map <silent><C-Right> <C-]>
-"
-"" bind ctrl+space for omnicompletion
-inoremap <expr> <C-Space> pumvisible() \|\| &omnifunc == '' ?
-			\ "\<lt>C-n>" :
-			\ "\<lt>C-x>\<lt>C-o><c-r>=pumvisible() ?" .
-			\ "\"\\<lt>c-n>\\<lt>c-p>\\<lt>c-n>\" :" .
-			\ "\" \\<lt>bs>\\<lt>C-n>\"\<CR>"
-imap <C-@> <C-Space>
-"
+
 "" Toggle the tag list bar
 "nmap <F4> :TlistToggle<CR>
 "
