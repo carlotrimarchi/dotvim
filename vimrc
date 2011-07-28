@@ -12,7 +12,7 @@ set nocompatible "Don't be compatible with vi
 filetype indent on
 filetype plugin on
 
-so ~/.vim/bundle/unicodemacros_0.1/unicodemacros.vim
+"so ~/.vim/bundle/unicodemacros_0.1/unicodemacros.vim
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -282,8 +282,10 @@ let OmniCpp_DefaultNamespaces = ["std", "_GLIBCXX_STD"]
 au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 set completeopt=menuone,menu,longest,preview
 
+let g:sparkupNextMapping = '<c-x>'
+
 " SuperTab settings
-let g:SuperTabDefaultCompletionType = "<C-x><C-o>"
+let g:SuperTabDefaultCompletionType = '<c-x><c-o>'
 
 """"" Folding
 set foldmethod=syntax					" By default, use syntax to determine folds
