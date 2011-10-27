@@ -1,21 +1,12 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
-[submodule "bundle/bufkill"]
-	path = bundle/bufkill
-	url = http://github.com/vim-scripts/bufkill.vim.git
 [submodule "bundle/delimitmate"]
 	path = bundle/delimitmate
 	url = http://github.com/Raimondi/delimitMate.git
-[submodule "bundle/fuzzyfinder"]
-	path = bundle/fuzzyfinder
-	url = http://github.com/vim-scripts/FuzzyFinder.git
 [submodule "bundle/lua-inspect"]
 	path = bundle/lua-inspect
 	url = https://github.com/xolox/vim-lua-inspect.git
-[submodule "bundle/lua-support"]
-	path = bundle/lua-support
-	url = https://github.com/vim-scripts/lua-support.git
 [submodule "bundle/sparkup"]
 	path = bundle/sparkup
 	url = https://github.com/kogakure/vim-sparkup.git
@@ -25,9 +16,6 @@
 [submodule "bundle/Command-t"]
 	path = bundle/Command-t
 	url = https://github.com/vim-scripts/Command-T.git
-[submodule "bundle/PIV"]
-	path = bundle/PIV
-	url = https://github.com/spf13/PIV.git
 [submodule "bundle/SnipMate"]
 	path = bundle/SnipMate
 	url = https://github.com/msanders/snipmate.vim.git
@@ -61,3 +49,6 @@
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = https://github.com/vim-scripts/bufexplorer.zip.git
+[submodule "bundle/AutoClose"]
+	path = bundle/AutoClose
+	url = https://github.com/vim-scripts/AutoClose.git

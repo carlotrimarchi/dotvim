@@ -441,5 +441,7 @@ autocmd BufRead *.py set efm=%C\ %.%#,%A\ \ File\ \"%f\"\\,\ line\ %l%.%#,%Z%[%^
 
 au BufNewFile,BufRead *.yaml,*.yml so ~/.vim/yaml.vim
 
+" in visual mode press Ctrl r to start substituting text
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 " sw = shiftwidth: works with the '>' command
 "autocmd FileType python setlocal sw=4 sts=4 et textwidth=78 sta
