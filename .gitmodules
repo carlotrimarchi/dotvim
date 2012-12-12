@@ -22,12 +22,14 @@
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = https://github.com/vim-scripts/matchit.zip.git
+    ignore = dirty
 [submodule "CheckSyntax"]
 	path = CheckSyntax
 	url = https://github.com/tomtom/checksyntax_vim.git
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/tpope/vim-surround.git
+    ignore = dirty
 [submodule "bundle/HTML-AutoCloseTag"]
 	path = bundle/HTML-AutoCloseTag
 	url = https://github.com/vim-scripts/HTML-AutoCloseTag.git
@@ -49,6 +51,7 @@
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = https://github.com/vim-scripts/bufexplorer.zip.git
+    ignore = dirty
 [submodule "bundle/AutoClose"]
 	path = bundle/AutoClose
 	url = https://github.com/vim-scripts/AutoClose.git

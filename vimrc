@@ -32,6 +32,9 @@ let g:mapleader = ","
 " Toggle NERDTree
 map <leader>n :NERDTreeToggle<CR>
 
+set backupdir=~/.vim/backup    " where to put backup files
+set directory=~/.vim/temp    " where to put swap files
+
 " Fast saving
 nmap <leader>w :w!<cr>
 
@@ -93,7 +96,8 @@ set t_vb=
 " Colors and fonts {{{1
 
 syntax enable "Enable syntax hl
-colorscheme mustang
+"colorscheme mustang
+colorscheme molokai
 
 " }}}1
 
